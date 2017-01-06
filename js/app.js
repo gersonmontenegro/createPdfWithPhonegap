@@ -1,5 +1,10 @@
 function start(){
     document.getElementById("make_pdf").addEventListener("click", clickMake);
+    document.getElementById("view_pdf").addEventListener("click", clickView);
+}
+
+function clickView(){
+    openFile();
 }
 
 function clickMake(){
