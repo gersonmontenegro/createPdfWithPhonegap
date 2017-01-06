@@ -85,13 +85,7 @@ function onCopyError(error){
 
 //visualize the PDF
 function viewPDF(){
-    console.debug("<<<<<<<<<<<<<<<<<<");
-    //console.debug("=>" + cordova.plugins.fileOpener2);
-    //console.debug(FILE_TARGET_PATH);
     openFile();
-    //PDFObject.embed(FILE_TARGET_PATH);
-    //$("#pdf_link").attr("href", FILE_TARGET_PATH);
-    //window.open(FILE_TARGET_PATH, "_blank", "location=yes");
 }
 
 function openFile(){
