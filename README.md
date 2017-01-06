@@ -183,3 +183,12 @@ Normally, if *onErrorOpening* is triggered, that's because the device has not an
 And that's all. Code is more explained by comments.
 
 I hope it can be useful.
+
+#PS
+This was my work of the last week, reading, searching, experimenting, etc. I visited so many sites, viewed a lot of code and making a lot mistakes, but there are a few links where I got the main code for do the tutorial. Thanks.
+
+- [pdfmake - Get PDF like jsPDF function output()](http://stackoverflow.com/questions/28824723/pdfmake-get-pdf-like-jspdf-function-output)
+- [Copy file from application folder to root folder in JQM/Phonegap App?](http://stackoverflow.com/questions/29479060/copy-file-from-application-folder-to-root-folder-in-jqm-phonegap-app)
+- [Cordova - File System](https://www.tutorialspoint.com/cordova/cordova_file_system.htm)
+- [Opening PDF in Phonegap (Android)](http://stackoverflow.com/questions/31492589/opening-pdf-in-phonegap-android)
+
