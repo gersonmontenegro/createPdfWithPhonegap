@@ -1,0 +1,5 @@
+cordova-js-src/
+node_modules/
+plugins/
+*.js
+
