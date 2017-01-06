@@ -4,9 +4,9 @@ Demo application that create/write (inside app folder)/move (to SD card)/open (w
 This demo is about 4 tasks using Cordova/Phonegap:
 
 1. Create a PDF file with makePDF in Javascript
-2. Write a file in Phonegap Application folder
-3. Move the file into a SD Card, or a more accessible location for the user
-4. Open automatically that PDF file
+2. Write a file in Cordova/Phonegap Application folder
+3. Move a file into a SD Card, or a more accessible location for the user with Cordova/Phonegap
+4. Open automatically a file from Cordova/Phonegap application
 
 ## Preparing the project
 At this part we need to execute the creation commands, add the plugins, and finally add the required JS libraries:
