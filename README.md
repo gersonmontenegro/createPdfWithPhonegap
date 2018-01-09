@@ -184,7 +184,7 @@ And that's all. Code is more explained by comments.
 
 I hope it can be useful.
 
-##PS
+## PS
 This was my work of the last week, reading, searching, experimenting, etc. I visited so many sites, viewed a lot of code and making a lot mistakes, but there are a few links where I got the main code for do the tutorial. Thanks.
 
 - [pdfmake - Get PDF like jsPDF function output()](http://stackoverflow.com/questions/28824723/pdfmake-get-pdf-like-jspdf-function-output)
