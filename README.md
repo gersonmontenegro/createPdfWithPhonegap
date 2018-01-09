@@ -58,7 +58,7 @@ Course, it's neccesary add the JS Scripts just before de last body tag
 
 Fine, now it's time to view the code:
 
-##Create a PDF file with makePDF in Javascript
+## Create a PDF file with makePDF in Javascript
 I make this with [pdfmake library](https://github.com/bpampuch/pdfmake), wich is perfect for my purpose. Easy to use, and has a lot of features.
 
 First, I create the "document definition" (DD). This part it's like this because it's possible to create a custom DD independent the creating process. Then, that DD is passing like parameter to the creation.
@@ -94,7 +94,7 @@ function onGetBuffer(buffer){
 ```
 Finally, the binary content is stored in *FILE_CONTENT* variable.
 
-##Write a file in Cordova/Phonegap Application folder
+## Write a file in Cordova/Phonegap Application folder
 [*File*](https://github.com/apache/cordova-plugin-file) plugin is required in this task.
 
 Start calling writeFile function, which execute requestFileSystem function from window object. Really, *window.requestFileSystem* is not writing the file indeed, just verify that the deveice has enough resources for do that. 
@@ -146,7 +146,7 @@ Now, if we want extract that file, we need exit to the normal user prompt. It's 
 ```
 adb pull /sdcard/Download/file.pdf /path/to/computer/destination/
 ```
-##Move a file into a SD Card, or a more accessible location for the user with Cordova/Phonegap
+## Move a file into a SD Card, or a more accessible location for the user with Cordova/Phonegap
 Normally, our file it's located in a folder application that is not accessible for a user, so in order to allow to the user get the file, we need to move it, or more exactly, copy it in, for example, the default Download folder in the device. Here is where [*File-Transfer*](https://github.com/apache/cordova-plugin-file-transfer) plugin is used.
 
 The process begin when the file is finally stored, so, in this time we call the copy function sending two parameters:
@@ -165,7 +165,7 @@ function copyFile(source, target){
     ft.download(source, target, onCopySuccess, onCopyError);
 }
 ```
-##Open automatically a file from Cordova/Phonegap application
+## Open automatically a file from Cordova/Phonegap application
 When copy is finished, we are ready to open the file, and that operation is possible (in this demo) thanks to [*fileOpener2*](https://github.com/pwlin/cordova-plugin-file-opener2) plugin. This one is too easy to implement:
 
 ```javascript
